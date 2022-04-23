@@ -1,0 +1,29 @@
+{
+    "name": "xtwoend/fcm-channel-notification",
+    "description": "FCM notification channel for hyperf",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xtwoend\\FcmChannelNotification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdul Hafidz A",
+            "email": "aditans88@gmail.com"
+        }
+    ],
+    "require": {
+        "hyperf-ext/notifications": "^2.2",
+        "kreait/firebase-php": "^6.2"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "hyperf": {
+            "config": "Xtwoend\\FcmChannelNotification\\ConfigProvider"
+        }
+    }
+}
